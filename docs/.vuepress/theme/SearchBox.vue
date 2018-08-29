@@ -12,7 +12,7 @@
       @keyup.enter="go(focusIndex)"
       @keyup.up="onUp"
       @keyup.down="onDown"
-      placeholder="search"
+      placeholder="搜索"
     >
     <ul
       class="suggestions"

@@ -6,7 +6,43 @@ module.exports = {
         ['link', { rel: 'manifest', href: '/manifest.json' }],
     ],
     themeConfig: {
-        sidebar: 'auto',
+        sidebarDepth: 5,
+        // sidebar: {
+        //     '/': [''],
+        //     '/android/': [''],
+        //     '/jvm/': ['', 'java'],
+        //     '/js/': [''],
+        //     '/python/': [''],
+        //     '/linux/': [''],
+        //     '/web/': [''],
+        // },
+        sidebar: [
+            {
+                title: 'Android',
+                children: ['/android/']
+            },
+            {
+                title: 'JS',
+                children: ['/js/']
+            },
+            {
+                title: 'JVM',
+                children: ['/jvm/']
+            },
+            {
+                title: 'Linux',
+                children: ['/linux/']
+            },
+            {
+                title: 'Python',
+                children: ['/python/']
+            },
+            {
+                title: 'Web',
+                children: ['/web/']
+            }
+        ],
+        // sidebar: 'auto',
         nav: [
             { text: '主页', link: '/' },
             // { text: '博文', items: [ ] }, 
@@ -17,7 +53,8 @@ module.exports = {
             { text: 'Linux', link: '/linux/' },
             { text: 'Web', link: '/web/' },
             { text: 'Github', link: 'https://www.github.com/Jacknic' },
-            { text: '关于', link: '/about' },
+            { text: '关于我', link: '/about' },
         ]
-    }
+    },
+
 }

@@ -1,16 +1,19 @@
----
-sidebar: auto
----
 # 个人笔记
 
-## [Android](./android/)
+## Android
+- [Android](./android/)
 
-## [JS](./js/)
+## JS
+- [JS](./js/)
 
-## [JVM](./jvm/)
+## JVM
+- [JVM](./jvm/)
 
-## [Linux](./linux/)
+## Linux
+- [Linux](./linux/)
 
-## [Python](./python/)
+## Python
+- [Python](./python/)
 
-## [web](./web/)
+## Web
+- [Web](./web/)
