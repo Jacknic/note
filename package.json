@@ -1,0 +1,15 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "笔记项目描述文件",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo 'ok'"
+  },
+  "keywords": [
+    "note"
+  ],
+  "author": "Jacknic",
+  "license": "ISC"
+}
