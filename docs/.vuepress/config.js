@@ -7,6 +7,7 @@ module.exports = {
     ],
     themeConfig: {
         sidebarDepth: 5,
+        displayAllHeaders: true,
         // sidebar: {
         //     '/': [''],
         //     '/android/': [''],

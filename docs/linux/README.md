@@ -1,3 +1,3 @@
-# 章节描述
+# 目录
 
-- 章节[第一章](https://www.baidu.com)
+- [第一章](https://www.baidu.com)

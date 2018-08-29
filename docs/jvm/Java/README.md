@@ -1,3 +1,3 @@
-# Java
+# 目录
 
-- 章节[第一章](01-书写Java代码.md)
+- [第一章](https://www.baidu.com)

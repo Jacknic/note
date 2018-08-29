@@ -1,3 +1,3 @@
-# JS
+# 目录
 
-## 章节[第一章](https://www.baidu.com)
+## [js的基本语法](01.md)
