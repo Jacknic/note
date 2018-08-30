@@ -11,5 +11,8 @@
     "note"
   ],
   "author": "Jacknic",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^0.14.2"
+  }
 }
