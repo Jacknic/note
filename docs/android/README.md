@@ -1,3 +1,3 @@
 # Android
 
-![Android](/assets/img/icons/android-logo.svg) [Android](/Android/)
+![Android2](./img/logo.svg) [Android](/Android/)

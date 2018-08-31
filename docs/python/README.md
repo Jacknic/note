@@ -1,3 +1,3 @@
-# 目录
+# Python
 
 - [第一章](https://www.baidu.com)

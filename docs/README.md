@@ -4,9 +4,9 @@ sidebar: false
 
 # 主页
 
-- ![Android](/assets/img/icons/android-logo.svg) [Android](/Android/)
+- ![Android](./Android/img/logo.svg) [Android](/Android/)
 
-- ![JS](/assets/img/icons/android-logo.svg)
+- ![JS](./Android/img/logo.svg)
 
 <div>
     <code>Python</code>

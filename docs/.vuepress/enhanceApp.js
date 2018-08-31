@@ -22,7 +22,7 @@ export default ({
         if (!links[dir]) {
             links[dir] = ['']
         }
-        if (!path.endsWith('/')) {
+        if (!path.endsWith('/') && endIndex > 0) {
             let item = file.split('.')[0]
             links[dir].push(item)
         }
