@@ -1,19 +1,13 @@
-# 个人笔记
+---
+sidebar: false
+---
 
-## Android
-- [Android](./android/)
+# 主页
 
-## JS
-- [JS](./js/)
+- ![Android](/assets/img/icons/android-logo.svg) [Android](/Android/)
 
-## JVM
-- [JVM](./jvm/)
+- ![JS](/assets/img/icons/android-logo.svg)
 
-## Linux
-- [Linux](./linux/)
-
-## Python
-- [Python](./python/)
-
-## Web
-- [Web](./web/)
+<div>
+    <code>Python</code>
+</div>

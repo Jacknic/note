@@ -7,42 +7,30 @@ export default ({
 }) => {
     // ...做一些其他的应用级别的优化
     let sidebar = siteData.themeConfig.sidebar
-    console.log(sidebar)
     let pages = siteData.pages
+    console.log(pages)
     let links = {}
     // console.log(siteData)
     pages.forEach(page => {
         let path = page.path
         let endIndex = path.lastIndexOf('/')
         let dir = path.substring(0, endIndex + 1)
-        let file = path.substring(endIndex)
+        let file = path.substring(endIndex + 1)
         // console.log(path)
         // "".split('')
         // console.log(dir)
         if (!links[dir]) {
-            let arr = dir.split('/')
-            let title = ''
-            if (arr.length > 2) {
-                title = arr[arr.length - 2]
-            } else {
-                title = '首页'
-            }
-            // console.log(arr)
-            links[dir] = [{
-                title: title,
-                children: ['']
-            }]
+            links[dir] = ['']
         }
         if (!path.endsWith('/')) {
-            links[dir][0].children.push(file)
-            // console.info('加入文件' + file)
-            // console.log(links[dir])
+            let item = file.split('.')[0]
+            links[dir].push(item)
         }
         // siteData.themeConfig.sidebar = links
 
     });
     console.log(links)
-
+    siteData.themeConfig.sidebar = links
 }
 /**
  * 
