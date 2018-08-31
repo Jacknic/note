@@ -7,7 +7,3 @@ sidebar: false
 - ![Android](./Android/img/logo.svg) [Android](/Android/)
 
 - ![JS](./Android/img/logo.svg)
-
-<div>
-    <code>Python</code>
-</div>
