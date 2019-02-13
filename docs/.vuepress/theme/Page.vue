@@ -67,13 +67,12 @@ import { resolvePage, normalize, outboundRE, endingSlashRE } from "./util";
 export default {
   props: ["sidebarItems"],
   created: function() {
-    console.log("页面被创建Page");
     console.log(this.$site);
   },
   computed: {
     lastUpdated() {
       if (this.$page.lastUpdated) {
-        return new Date(this.$page.lastUpdated).toLocaleString(this.$lang);
+        return new Date(this.$page.lastUpdated).toLocaleString();
       }
     },
 
