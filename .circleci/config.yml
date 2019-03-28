@@ -25,6 +25,8 @@ jobs:
       - run: npm install
       
       # 部署到 GitHub Pages
+      - run: git config --global user.email "jacknic@qq.com"
+      - run: git config --global user.name "Jacknic"
       - run: bash ./deploy.sh
 
       # 缓存依赖
