@@ -8,7 +8,7 @@ const navItems = [
     { text: 'Python', link: '/Python/' },
     { text: 'Linux', link: '/Linux/' },
     { text: 'Front', link: '/Front/' },
-    { text: 'Github', link: 'https://www.github.com/Jacknic' },
+    { text: 'Github', link: 'https://github.com/Jacknic' },
     { text: '关于我', link: '/about' },
 ]
 
