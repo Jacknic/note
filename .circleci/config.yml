@@ -12,6 +12,10 @@ jobs:
     working_directory: ~/repo
 
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "c4:f2:d2:61:de:e3:85:bb:af:de:4f:d7:1d:e5:a9:41"
+
       - checkout
 
       # 恢复依赖缓存
