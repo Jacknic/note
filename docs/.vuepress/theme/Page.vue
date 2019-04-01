@@ -67,7 +67,7 @@ import { resolvePage, normalize, outboundRE, endingSlashRE } from "./util";
 export default {
   props: ["sidebarItems"],
   created: function() {
-    console.log(this.$site);
+    // console.log(this.$site);
   },
   computed: {
     lastUpdated() {

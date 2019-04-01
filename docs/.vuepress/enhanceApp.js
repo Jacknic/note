@@ -8,7 +8,7 @@ export default ({
     // ...做一些其他的应用级别的优化
     let sidebar = siteData.themeConfig.sidebar
     let pages = siteData.pages
-    console.log(pages)
+    // console.log(pages)
     let links = {}
     // console.log(siteData)
     pages.forEach(page => {
@@ -29,7 +29,7 @@ export default ({
         // siteData.themeConfig.sidebar = links
 
     });
-    console.log(links)
+    // console.log(links)
     siteData.themeConfig.sidebar = links
 }
 /**
