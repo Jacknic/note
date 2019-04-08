@@ -128,7 +128,7 @@ export default {
 
   mounted () {
     window.addEventListener('scroll', this.onScroll)
-
+    this.loadMta();
     // configure progress bar
     nprogress.configure({ showSpinner: false })
 
@@ -174,6 +174,22 @@ export default {
 
     onSWUpdated (e) {
       this.swUpdateEvent = e
+    },
+
+    /**
+     * 加载腾讯MTA数据统计
+     */
+    loadMta(){
+      var _mtac = {"senseQuery":1};
+      (function() {
+        var mta = document.createElement("script");
+        mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+        mta.setAttribute("name", "MTAH5");
+        mta.setAttribute("sid", "500677480");
+        mta.setAttribute("cid", "500677481");
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(mta, s);
+      })();
     }
   }
 }
